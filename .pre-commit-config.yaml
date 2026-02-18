@@ -70,7 +70,11 @@ repos:
         types: ["python"]
 
   - repo: https://github.com/billwallis/bills-hooks
-    rev: v0.0.6
+    rev: v0.0.8
     hooks:
+      - id: check-filename-pattern
+        name: Check archived files have date suffix
+        files: '^src/archived/.*\.md$'
+        args: ["--name-only", "--regex", '^\d{4}-\d{2}-\d{2}--.*\.md$']
       - id: tidy-gitkeep
         name: Remove redundant .gitkeep files
