@@ -1,0 +1,4 @@
+- [BW 10 mins]: [YAML scalars](https://yaml.org/spec/1.2.2/#23-scalars)
+    - `|`  vs `>`
+    - `-` and `+` modifiers
+    - ~~Petition: please~~ *what Bill does*: use `>` for text and `|` for code/commands

@@ -1,0 +1,4 @@
+- [BW 5 mins]: JSON vs JSON5 vs JSONL vs YAML
+    - We all know JSON
+    - JSON5 is "friendly" JSON — don't use it and use YAML instead
+    - JSONL (JSON Lines) is a good CSV alternative (but with limited support, AFAIK)

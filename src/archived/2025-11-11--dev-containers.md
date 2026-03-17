@@ -1,0 +1,3 @@
+- [BW 10 mins] dev containers
+    - I got fed up of PowerShell on my Windows PC
+    - https://containers.dev/implementors/json_reference/

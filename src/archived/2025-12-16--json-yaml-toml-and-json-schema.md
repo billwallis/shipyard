@@ -1,0 +1,13 @@
+- [BW 5 mins] JSON vs YAML vs TOML
+    - https://xkcd.com/927/
+    - Don't maintain JSON by hand 🫠
+    - YAML is a JSON superset
+    - YAML for data (because it can be easily parsed into Python classes via tags)
+    - TOML for config (`tomllib` in Python stdlib 3.11+)
+- [BW 5 mins] JSON schema files
+    - Applies to JSON, YAML, and TOML
+    - https://json-schema.org/
+    - https://www.schemastore.org/
+    - local schema files
+    - `yaml-language-server` comments for IDE validation
+    - JSON schema pre-commit (`check-jsonschema`)

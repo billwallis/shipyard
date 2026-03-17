@@ -1,0 +1,8 @@
+- [BW 5 mins] GitHub [code block options](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+    - `<language>` (obvious one)
+        - syntax highlighting (eg `python`) vs image previews (eg `mermaid`)
+    - `suggestion`
+    - `diff`
+    - How to put triple ```s in a code block?
+- [BW 2 mins] commit diffs/patches in GitHub
+    - Add `.diff` or `.patch` at the end of the commit URL

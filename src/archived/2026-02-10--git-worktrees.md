@@ -1,0 +1,7 @@
+- [BW 15 mins] What's a [git worktree](https://git-scm.com/docs/git-worktree)?
+    - It's what's powering some multi-agent workflows
+    - Basically just extra working directories sharing the same underlying git environment
+    - Worktrees enable you to work on separate feature branches in parallel, using agents. You can't do this with typical branches because any ongoing agent processes would get confused by the change in env as you switch back and forth
+        - You can also keep multiple-branches "open" without committing or stashing changes
+    - Create worktrees in the folder above your main-repo-folder
+    - Keeps your PRs & commits clean without multiple features stuff in

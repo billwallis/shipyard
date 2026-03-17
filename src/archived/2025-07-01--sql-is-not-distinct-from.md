@@ -1,0 +1,4 @@
+- [BW 2 mins]: SQL's `IS [NOT] DISTINCT FROM`
+    - If a column is `NOT NULL`, freely use `=` and `!=` (or `<>`)
+    - If a column is `NULL`, use `IS [NOT] DISTINCT FROM` instead
+    - Also: a lesson about relationship tests

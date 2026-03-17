@@ -1,0 +1,1 @@
+- [BW 5 mins] `CONCAT_WS` in Snowflake (vs SQL Server)
