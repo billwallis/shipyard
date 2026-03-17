@@ -1,0 +1,2 @@
+- [BW 5 mins]: Nested files in PyCharm (probs in VS Code, too)
+    - https://www.jetbrains.com/help/pycharm/file-nesting-dialog.html

@@ -1,0 +1,18 @@
+- [BW 15 mins] What makes a good Python docstring?
+    - Lots of opinions incoming 😄
+    - What & why
+        - [PEP 257 – Docstring Conventions](https://peps.python.org/pep-0257/)
+            - module, function, class
+            - `__docs__` dunder
+            > *It prescribes the function or method's effect as a command ("Do this", "Return that"), not as a description.*
+            - [doctest](https://docs.python.org/3/library/doctest.html) (but, be reasonable)
+            - reST vs Numpy style vs Google style (brief FYI, full discussion planned for another Shipyard)
+            - API reference builders (e.g. [pydoc](https://docs.python.org/3/library/pydoc.html), MkDocs, [Sphinx](https://www.sphinx-doc.org/en/master/))
+    - Where
+        - Public vs private entities
+        - Library vs application
+        - Behaviour vs implementation
+    - How
+        - https://github.com/TasmanAnalytics/dbt-datadict/pull/67
+            - Leaking implementation details
+            - Verbosely describing the behaviour

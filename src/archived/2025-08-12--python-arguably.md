@@ -1,0 +1,3 @@
+- [BW 5 mins] The best Python CLI library, [arguably](https://github.com/treykeown/arguably)
+    - Alternatives: [argparse](https://docs.python.org/3/library/argparse.html) (stdlib), [Click](https://click.palletsprojects.com/en/stable/), [Typer](https://typer.tiangolo.com/)
+    - [Teeny tiny API](https://treykeown.github.io/arguably/why/#an-unobtrusive-api) — just use `arguably.run` and `arguably.command`!

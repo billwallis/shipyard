@@ -1,0 +1,11 @@
+- [BW 5 mins] Make is not a task runner
+    - Make is a *build system*
+    - https://www.youtube.com/watch?v=20GC9mYoFGs
+    - Demo (my local testing-dbt repo)
+    - Alternatives:
+        - [Just](https://just.systems/)
+        - [Task](https://taskfile.dev/)
+        - [Poe the Poet](https://poethepoet.natn.io/index.html)
+- [BW 2 mins]: use `git switch` instead of `git checkout` for branches!
+    - `git checkout -b new-branch` → `git switch -c new-branch`
+    - `git checkout existing-branch` → `git switch existing-branch`

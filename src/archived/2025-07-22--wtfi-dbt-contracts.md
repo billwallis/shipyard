@@ -1,0 +1,2 @@
+- [BW 10 mins]: WTFI a [dbt contract](https://docs.getdbt.com/docs/mesh/govern/model-contracts)
+    - ...and why they're [a potential footgun for cloud data platforms](https://docs.getdbt.com/reference/resource-properties/constraints#platform-specific-support) ([Snowflake](https://docs.snowflake.com/en/sql-reference/constraints), [BigQuery](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#primary_keys_and_foreign_keys), [Redshift](https://docs.aws.amazon.com/redshift/latest/dg/t_Defining_constraints.html))

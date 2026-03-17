@@ -2,7 +2,7 @@
 ---
 ci:
   autoupdate_schedule: quarterly
-  skip: ["identity", "uv-lock", "ty"]
+  skip: ["identity", "uv-lock", "ty", "notion-to-markdown"]
 
 default_install_hook_types: ["pre-commit", "pre-push"]
 default_stages: ["pre-commit"]
@@ -78,3 +78,13 @@ repos:
         args: ["--name-only", "--regex", '^\d{4}-\d{2}-\d{2}--.*\.md$']
       - id: tidy-gitkeep
         name: Remove redundant .gitkeep files
+
+  - repo: local
+    hooks:
+      - id: notion-to-markdown
+        name: Replace Notion characters with normal Markdown characters
+        entry: notion-to-markdown
+        language: unsupported
+        pass_filenames: true
+        always_run: false
+        types: ["markdown"]

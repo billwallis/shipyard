@@ -1,0 +1,4 @@
+- [BW 10 mins] Conventional commits!
+    - The [spec](https://www.conventionalcommits.org/en/v1.0.0/)
+    - Refined GitHub recognises these
+    - SemVer automation
