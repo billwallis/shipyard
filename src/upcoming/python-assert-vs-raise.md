@@ -1,0 +1,8 @@
+- [BW 5 mins] Python: `assert` vs `raise`
+    - `assert` can be ignored at runtime (`-O`, capital O)
+    - `assert` statements can help type checkers
+    - `assert` for "internal" checks (like tests!), `raise` for everything else
+    - `assert` is used for "defensive programming"
+        - https://www.youtube.com/watch?v=v1MtwCPTmBI
+    - assert_never and assert_type
+        - https://www.youtube.com/watch?v=jN_a02Rj8Gg&list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY&index=437

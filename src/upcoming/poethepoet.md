@@ -1,0 +1,4 @@
+- [BW 10 mins] [Poe the Poet](https://poethepoet.natn.io/) (alternative to [Make](https://www.gnu.org/software/make/manual/make.html)/[just](https://github.com/casey/just))
+    - OS-independent (easily!)
+    - Project dependency, not a global dependency (but it can be)
+    - Used by AirByte 👀 ([source](https://github.com/airbytehq/airbyte/tree/master/poe-tasks))

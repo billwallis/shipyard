@@ -1,0 +1,7 @@
+- [BW 10 mins] Testing primer
+    - TDD: Where did it all go wrong
+    - Test behaviour, not implementation
+    - Use dbt-datadict as an example
+        - The 100% test coverage tries to "document" the behaviour
+        - Any change in behaviour causes a change in the tests
+        - Any genuine refactor causes no change in tests

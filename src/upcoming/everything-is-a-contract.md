@@ -1,0 +1,6 @@
+- [BW 10 mins] Everything is a contract
+    - private vs public
+    - stg vs dmn vs prs
+    - "black box testing"
+    - "stable API"
+    - SemVer's "guarantees" (no breaking changes between minor/patch versions)

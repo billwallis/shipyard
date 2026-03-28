@@ -1,0 +1,4 @@
+- [BW 10 mins] Building your own Python CLI
+    - ...with argparse (you can check Click, Typer, etc in your own time)
+    - return codes
+    - separate CLI code from "domain" code

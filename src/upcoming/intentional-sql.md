@@ -1,0 +1,6 @@
+- [BW 5 mins] Intentional SQL (a miniseries)
+    - Intentional `GROUP BY`
+        - `select id, name, agg(...) from t group by id, name`
+        - `select id, any_value(name), agg(...) from t group by id`
+        - The latter is better, it gets the grain right!
+        - Note on SQLite and [T301 "Functional dependencies"](https://modern-sql.com/caniuse/T301)

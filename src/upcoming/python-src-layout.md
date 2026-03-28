@@ -1,0 +1,3 @@
+- [BW 5 mins] Pythons's src layout
+    - ...vs flat layout
+    - Why I don't like dbt packages (full git clone 🤬)

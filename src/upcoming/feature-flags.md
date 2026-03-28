@@ -1,0 +1,4 @@
+- [BW 5 mins] Feature flags ✨
+    - WTFI a feature flag?
+    - Big in software (less so in data)
+    - Much better approach than long-lived branches (generally)!

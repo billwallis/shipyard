@@ -1,0 +1,4 @@
+- [BW 5 mins] A few CLI "features"
+    - Chained short args `rm -rf ./~`
+    - No space after short args `python -mvenv .venv`
+    - Abbreviated args (when not ambiguous, e.g. `pre-commit install --i`) — but better to not use them outside of personal stuff

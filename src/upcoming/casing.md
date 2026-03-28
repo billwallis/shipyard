@@ -1,0 +1,8 @@
+- [BW 5 mins] Casing!
+    - All the types:
+        - camelCase
+        - PascalCase
+        - snake_case
+        - kebab-case
+        - SCREAMING_SNAKE_CASE
+    - Where and why to use them (+ my opinions)
