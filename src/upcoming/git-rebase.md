@@ -1,0 +1,3 @@
+- [BW 10 mins] git: the dreaded *rebase* 😨
+    - Simple rebase
+    - Interactive rebase

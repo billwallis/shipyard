@@ -1,0 +1,4 @@
+- [BW 10 mins] dbt node selection
+    - syntax
+    - in the docs
+    - selectors

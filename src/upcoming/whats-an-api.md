@@ -1,0 +1,8 @@
+- [BW 10 mins] What's an API?
+    - Library/SDK
+    - CLI (stretching the definition a bit 😄)
+    - Server API
+        - REST
+        - GraphQL
+        - gRPC
+    - MCP (maybe?)

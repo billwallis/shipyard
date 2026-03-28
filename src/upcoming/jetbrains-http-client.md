@@ -1,0 +1,5 @@
+- [BW 10 mins] JetBrains HTTP client!
+    - Lightweight replacement for Postman/Bruno etc
+    - Environments (bit meh, but still)
+    - Variables (particularly ones set using responses)
+    - Tests!

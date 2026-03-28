@@ -1,0 +1,10 @@
+- [BW 20 mins] Making GitHub PRs work for you (maybe an AE lab/Dockside chat)
+    - PRs in your IDE
+    - "Add a comment" vs "Start a review"
+    - Comment on: line, lines, file
+    - GitHub code markdown: `suggestion` and `diff`
+    - Review one commit, several commits, "Changes since last reviewed"
+    - As the dev, write code that's easy to review!
+        - Intentionally separate semantically different work into different commits
+        - Curate your branch locally with amend/squash
+        - Try to avoid force pushing once other people have started reviewing your work

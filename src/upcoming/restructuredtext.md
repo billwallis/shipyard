@@ -1,0 +1,4 @@
+- [BW 5 mins] reStructuredText
+    - WTFI [reST](https://docutils.sourceforge.io/rst.html)?
+    - [PEP 287](https://peps.python.org/pep-0287/)
+    - alternatives: NumPy style, Google style

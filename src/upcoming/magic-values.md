@@ -1,0 +1,5 @@
+- [BW 5 mins] ✨ ***magic*** ✨ values
+    - WTFI a [magic value](https://en.wikipedia.org/wiki/Magic_number_(programming))
+    - Magic values in Python (feat. `enum`, Ruff)
+        - PLR2004 Magic value used in comparison
+    - Magic values in SQL/dbt (feat. `set`, `vars`)
