@@ -33,3 +33,4 @@
         ;
         ```
     - Spoiler: https://github.com/duckdb/duckdb/issues/15557
+    - [DuckDB materialisation rules](https://duckdb.org/docs/current/sql/query_syntax/with#cte-materialization)
