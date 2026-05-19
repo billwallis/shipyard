@@ -1,4 +1,4 @@
-- [BW 10 mins] `returning *` and data-modifying CTEs
+- [BW 8 mins] `returning *` and data-modifying CTEs
     - `returning *` is available in lotsa DBs, good for many DML actions
         - Real nice for checking results before committing them
             ```sql
