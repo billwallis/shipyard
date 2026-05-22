@@ -91,6 +91,7 @@ def test__calculate_dst(
         (1., None, None),
         (None, 2., None),
         (None, None, 3.),
+        (1., 2., 3.),
     ),
 )
 def test__calculate_dst__raises(
