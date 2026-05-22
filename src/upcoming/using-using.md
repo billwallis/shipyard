@@ -2,3 +2,4 @@
     - We all know that it's simpler than `ON`
     - ✅ It also automatically `COALESCE`s the values
     - ⚠️ But since it infers the table aliases, it's best reserved for repeated columns
+    - ⚠️ Plus it can break with schema change! ([jOOQ article](https://blog.jooq.org/why-join-using-can-lead-to-errors-in-sql/))
