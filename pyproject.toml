@@ -17,8 +17,13 @@ scripts.notion-to-markdown = "hooks.notion_to_markdown:main"
 
 [dependency-groups]
 dev = [
+    "mypy>=2.1.0",
     "poethepoet>=0.42.1",
     "pre-commit>=4.5.1",
+]
+test = [
+    "pytest>=9.0.3",
+    "pytest-cov>=7.0.0",
 ]
 
 
