@@ -1,0 +1,4 @@
+- [BW 5 mins] `cd` vs `pushd` and `popd`
+    - https://youtu.be/eF6qpdIY7Ko?si=ekLww7mAsXHGEp9G
+    - `cd` is a "stateless" move (just go to the dir)
+    - `pushd` keeps track of which dirs have been switched to, so `popd` is a "back button" for the terminal
