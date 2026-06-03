@@ -1,0 +1,4 @@
+- [BW 5 mins] My latest [git subcommands](https://youtu.be/YwG8C0jPapE)
+    - [`git pr`](https://github.com/billwallis/scratch/blob/main/git/git-pr) (after `git push`)
+    - [`git wrapup`](https://github.com/billwallis/scratch/blob/main/git/git-wrapup)
+    - symlink the files to my `~/bin`
