@@ -1,0 +1,2 @@
+- [BW 5 mins] A fun use-case for lateral joins
+    - https://blog.jooq.org/lateral-is-your-friend-to-create-local-column-variables-in-sql/
