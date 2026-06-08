@@ -12,3 +12,20 @@
         export SNOWFLAKE_DATABASE=$(op read "op://Vault/Snowflake/database")
         export SNOWFLAKE_SCHEMA=$(op read "op://Vault/Snowflake/schema")
         ```
+
+---
+
+Also good for ignoring Python warnings: e.g. consider a `.config/PYTHONWARNINGS` file:
+
+```text
+ignore::UserWarning:google.auth._default
+ignore::FutureWarning:dbt.adapters.bigquery.connections
+ignore::RuntimeWarning:agate.type_tester
+```
+
+This can be written to an env var (in `.envrc`) with:
+
+```shell
+# https://docs.python.org/3/library/warnings.html
+export PYTHONWARNINGS=$(paste -sd ',' .config/PYTHONWARNINGS)
+```
