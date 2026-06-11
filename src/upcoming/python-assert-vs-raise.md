@@ -5,6 +5,7 @@
     - `assert` is used for "defensive programming"
         - https://www.youtube.com/watch?v=v1MtwCPTmBI
     - `assert_never` and `assert_type`
+        - https://typing.python.org/en/latest/guides/unreachable.html#assert-never-and-exhaustiveness-checking
         - https://www.youtube.com/watch?v=jN_a02Rj8Gg&list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY&index=437
 
 ---

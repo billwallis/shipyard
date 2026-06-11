@@ -1,0 +1,9 @@
+- [BW 10 mins] Workspaces in Python with uv
+    - e.g.: https://github.com/billwallis/testing-python
+    - Each workspace needs to be installable
+    - ...but uv can hook them all together at the top-level
+    - This is great for repos with distinct components
+        - e.g.: https://github.com/dagster-io/dagster/tree/master
+        - candidate: https://github.com/TasmanAnalytics/engineering-labs
+    - Demo time!
+    - RFC: Can we apply to the engineering-labs repo?
