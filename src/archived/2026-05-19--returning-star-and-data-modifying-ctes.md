@@ -23,7 +23,7 @@
             ```
         - https://www.linkedin.com/posts/bill-wallis_sqlwithbill-sql-activity-7326532233790386176-_ga0
     - Data-modifying CTEs (PostgreSQL only feature AFAIK)
-        - Generally avoid, but has some nice use cases — e.g. "archiving" data
+        - Generally avoid, but has some nice use cases -- e.g. "archiving" data
             ```sql
             /*    PostgreSQL    */
             with events_to_move as (
