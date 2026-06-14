@@ -1,7 +1,7 @@
 - [BW 15 mins] What makes a good Python docstring?
     - Lots of opinions incoming 😄
     - What & why
-        - [PEP 257 – Docstring Conventions](https://peps.python.org/pep-0257/)
+        - [PEP 257 - Docstring Conventions](https://peps.python.org/pep-0257/)
             - module, function, class
             - `__docs__` dunder
             > *It prescribes the function or method's effect as a command ("Do this", "Return that"), not as a description.*

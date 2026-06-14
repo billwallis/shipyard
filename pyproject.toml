@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://json.schemastore.org/pyproject.json
-
 [build-system]
-requires = ["uv_build>=0.8"]
+requires = ["uv_build"]
 build-backend = "uv_build"
 
 [project]
@@ -18,17 +17,12 @@ scripts.notion-to-markdown = "hooks.notion_to_markdown:main"
 [dependency-groups]
 dev = [
     "mypy>=2.1.0",
-    "poethepoet>=0.42.1",
-    "pre-commit>=4.5.1",
-]
-test = [
-    "pytest>=9.0.3",
-    "pytest-cov>=7.0.0",
+    "poethepoet>=0.46.0",
+    "pre-commit>=4.6.0",
 ]
 
 
 [tool.uv]
-required-version = ">=0.8"
 default-groups = "all"
 
 [tool.uv.build-backend]
@@ -48,7 +42,6 @@ upgrade.shell = """
     uv sync --refresh --upgrade
     uv run pre-commit autoupdate
 """
-test = "uv run pytest -vvv"
 
 [tool.poe.tasks.lint]
 control.expr = "sys.platform"
@@ -74,7 +67,7 @@ shell = """
 [tool.ruff]
 line-length = 80
 indent-width = 4
-target-version = "py313"
+target-version = "py314"
 
 [tool.ruff.format]
 quote-style = "double"

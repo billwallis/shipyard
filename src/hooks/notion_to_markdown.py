@@ -10,6 +10,8 @@ REPLACEMENTS = {
     "“": '"',
     "”": '"',
     "…": "...",
+    "–": "-",  # noqa: RUF001
+    "—": "--",
     " ": " ",  # noqa: RUF001
 }
 
@@ -27,8 +29,13 @@ def convert_notion_to_markdown(filename: str) -> int:
     """
 
     # https://stackoverflow.com/a/15976014/8213085
-    with open(filename, "r+") as f:
-        content = f.readlines()
+    with open(filename, "r+", encoding="utf-8") as f:
+        try:
+            content = f.readlines()
+        except UnicodeDecodeError as err:
+            print(f"error reading file {filename}: {err}")
+            return FAILURE
+
         f.seek(0)
         f.writelines(_replace_all(line) for line in content)
         f.truncate()
