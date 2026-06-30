@@ -76,7 +76,7 @@ def test__calculate_dst(
     distance: float | None,
     speed: float | None,
     time: float | None,
-    expected: float | None,
+    expected: float,
 ):
     assert expected == calculate_dst(
         distance=distance,
