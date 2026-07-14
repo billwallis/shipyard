@@ -1,0 +1,7 @@
+- [BW 5 mins] git blog summary
+    - Check out the command catalogue
+    - Update your global config
+    - Learn `git rebase -i`
+    - Learn `git bisect` for future sleuthing
+    - Please, curate your history
+    - Third-party stuffs
