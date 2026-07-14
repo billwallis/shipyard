@@ -3,3 +3,4 @@
     - Magic values in Python (feat. `enum`, Ruff)
         - PLR2004 Magic value used in comparison
     - Magic values in SQL/dbt (feat. `set`, `vars`)
+    - To some extent, hardcoded `case` statements use magic values, too!
