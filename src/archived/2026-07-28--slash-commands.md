@@ -1,0 +1,6 @@
+- [BW 3 mins] The ubiquity of slash commands
+    - [Notion](https://www.notion.com/help/guides/using-slash-commands)
+    - [Slack](https://slack.com/intl/en-gb/help/articles/360057554553-Use-shortcuts-to-take-actions-in-Slack)
+    - [Microsoft Teams](https://support.microsoft.com/en-US/teams/chat/use-commands-in-microsoft-teams)
+    - [GitHub](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/about-slash-commands)
+    - [Claude Code](https://code.claude.com/docs/en/commands)
