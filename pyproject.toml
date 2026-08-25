@@ -27,6 +27,7 @@ default-groups = "all"
 
 [tool.uv.build-backend]
 namespace = true
+module-root = "tools"
 
 
 [tool.poe]
