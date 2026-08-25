@@ -26,17 +26,7 @@ def colour(text: str, colour_: str) -> str:
     return f"{colour_}{text}{RESET}"
 
 
-def parse_date(text: str) -> datetime.date:
-    try:
-        return datetime.date.fromisoformat(text)
-    except ValueError:
-        print(colour(f"error: {text!r} is not a valid ISO date", RED))
-        raise
-
-
 def archive_file(filename: str, date: datetime.date) -> None:
-    print(filename, date)
-
     source = DOCS_UPCOMING / filename
     target = DOCS_ARCHIVED / f"{date.isoformat()}--{filename}"
 
@@ -51,6 +41,14 @@ def archive_file(filename: str, date: datetime.date) -> None:
 
     print(f"Moving '{source}' to '{target}'")
     source.move(target)
+
+
+def parse_date(text: str) -> datetime.date:
+    try:
+        return datetime.date.fromisoformat(text)
+    except ValueError:
+        print(colour(f"error: {text!r} is not a valid ISO date", RED))
+        raise
 
 
 def main(argv: Sequence[str] | None = None) -> int:
