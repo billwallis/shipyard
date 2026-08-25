@@ -12,7 +12,10 @@ readme = "README.md"
 license-files = ["LICENSE"]
 requires-python = ">=3.14"
 dependencies = []
-scripts.notion-to-markdown = "hooks.notion_to_markdown:main"
+
+[project.scripts]
+notion-to-markdown = "hooks.notion_to_markdown:main"
+archiver = "archiver:main"
 
 [dependency-groups]
 dev = [
