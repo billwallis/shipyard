@@ -1,0 +1,6 @@
+- [BW 10 mins] Batch vs CDC vs CT
+    - Batch
+    - Change Data Capture
+    - Change Tracking
+    - https://www.sqlservercentral.com/blogs/the-difference-between-change-tracking-and-change-data-capture
+    - https://learn.microsoft.com/en-us/sql/database-engine/availability-groups/windows/replicate-track-change-data-capture-always-on-availability?view=sql-server-ver17
