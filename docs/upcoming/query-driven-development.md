@@ -1,0 +1,2 @@
+- [BW 5 mins] Query-driven development
+    - Considered a bad practice (and it is), but I like it 😛
