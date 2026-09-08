@@ -1,0 +1,4 @@
+- [BW 3 mins] parting gift
+    - https://www.youtube.com/@anthonywritescode/videos
+    - In particular:
+        - https://youtube.com/playlist?list=PLWBKAf81pmOaP9naRiNAqug6EBnkPakvY
