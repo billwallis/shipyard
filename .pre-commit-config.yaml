@@ -33,7 +33,7 @@ repos:
       - id: check-pre-commit-ci-config
 
   - repo: https://github.com/billwallis/bills-hooks
-    rev: v0.0.15
+    rev: v0.0.16
     hooks:
       - id: check-filename-pattern
         files: '^src/archived/.*\.md$'
@@ -43,7 +43,7 @@ repos:
       - id: tidy-gitkeep
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.37.4
+    rev: 0.38.2
     hooks:
       - id: check-github-workflows
       - id: check-compose-spec
